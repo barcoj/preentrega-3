@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0%;
+  padding: 0%; }
+
+header {
+  border-bottom: 1px solid; }
+  header .navbar-brand .logoPrincipal {
+    width: 120px;
+    transition: all 0.3s; }
+    header .navbar-brand .logoPrincipal:hover {
+      width: 130px; }
+  header li {
+    list-style-type: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block; }
+    header li a {
+      text-decoration: none;
+      font-weight: bold; }
+      header li a:hover {
+        opacity: 1; }
+      header li a .logosRedes {
+        width: 40px;
+        margin: 5px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif; }
+  body main {
+    background-color: #444444;
+    text-align: center; }
+    body main h2, body main .parrafosExtend {
+      color: black;
+      text-align: center;
+      font-weight: bold; }
+    body main h4 {
+      color: rgba(255, 0, 0, 0.496);
+      font-weight: bold; }
+    body main form {
+      margin: 0 auto;
+      padding: 2em;
+      border: 0px solid #ccc;
+      border-radius: 1em; }
+    body main ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+    body main form li + li {
+      margin-top: 1em; }
+    body main label {
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+      color: #ccc; }
+    body main input textarea {
+      font: 1em sans-serif;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999; }
+    body main input:focus textarea:focus {
+      border-color: #000; }
+    body main textarea {
+      vertical-align: top;
+      height: 5em; }
+    body main .button {
+      padding-left: 90px; }
+    body main button {
+      margin-left: 0.5em; }
+      body main button:hover {
+        text-decoration-color: darkcyan; }
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+  color: white; }
+  footer .btnWhats {
+    position: fixed;
+    right: 0;
+    bottom: 60px; }
+    footer .btnWhats .logosRedes {
+      width: 40px;
+      margin: 5px; }
+
+/*MAP*/
+.oscuro {
+  background-image: linear-gradient to right #870000, #190A05; }
+
+.claro {
+  background-image: linear-gradient to right #f7ff00, #db36a4; }
+
+.gradientes {
+  background-image: linear-gradient to right #870000, #190A05; }
+
+/*EXTEND*/
+h2, .parrafosExtend {
+  color: black;
+  text-align: center;
+  font-weight: bold; }
+
+.parrafosExtend {
+  font-size: 40px; }
+
+/*MIXIN*/
+.listasMixin {
+  font-size: 50px;
+  text-align: left; }

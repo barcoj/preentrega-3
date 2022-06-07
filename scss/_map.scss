@@ -1,0 +1,13 @@
+/*MAP*/
+
+$mapGradiente: (oscuro: linear-gradient (to right #870000, #190A05), claro: linear-gradient (to right #f7ff00, #db36a4));
+
+@each $gradiente, $color in $mapGradiente {
+    .#{$gradiente} {
+        background-image: $color;
+    }
+}
+
+ .gradientes {
+     background-image: map-get($mapGradiente,oscuro)
+ }

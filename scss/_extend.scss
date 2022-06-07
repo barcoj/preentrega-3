@@ -1,0 +1,12 @@
+/*EXTEND*/
+
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.parrafosExtend {
+    @extend h2;
+    font-size: 40px;
+}

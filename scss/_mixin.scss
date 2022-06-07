@@ -1,0 +1,10 @@
+/*MIXIN*/
+
+@mixin listasModify  ($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion;    
+}
+
+.listasMixin {
+    @include listasModify(50px, left)
+}

@@ -1,0 +1,16 @@
+footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    
+    .btnWhats {
+        position: fixed;
+        right: 0;
+        bottom: 60px;
+        
+        .logosRedes {
+            width: 40px;
+            margin: 5px;  
+        }
+    }
+}

@@ -1,0 +1,41 @@
+header {
+    border-bottom: 1px solid;
+    // background-image: linear-gradient(#F9D423, #FF4E50);
+
+    .navbar-brand {
+    .logoPrincipal {
+        width: 120px;
+        transition: all 0.3s;
+      
+        &:hover {
+          width: 130px;
+        }
+      }
+    }
+
+    li {
+        list-style-type: none;
+        color: blueviolet;
+        font-weight: bold;
+        font-size: larger;
+        display: inline-block;
+        
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            
+                &:hover {
+                  opacity: 1;
+                }
+                    
+
+                .logosRedes {
+                    width: 40px;
+                    margin: 5px;
+                 }
+
+        }
+    }
+
+}
